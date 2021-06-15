@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('assets/fonts/SF-Pro-Display-Regular.otf');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('assets/fonts/SF-Pro-Display-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('assets/fonts/SF-Pro-Display-BoldItalic.otf');
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-style: normal;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+.paragraph-1,
+.paragraph-2 {
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 27px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.paragraph-1,
+.paragraph-2 {
+  line-height: 20px;
+}
+
+.paragraph-1 {
+  font-size: 14px;
+}
+
+.paragraph-2 {
+  font-size: 12px;
+}
+
+.paragraph-1 span,
+.paragraph-2 span {
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.footer-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+  padding: 14px 0;
+  color: rgba(47, 47, 47, 0.5);
+}
