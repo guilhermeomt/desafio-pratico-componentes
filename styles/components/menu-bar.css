@@ -1,0 +1,22 @@
+.menu-bar,
+.menu-bar--intern {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  justify-content: space-between;
+  background-color: var(--color-white);
+}
+
+.menu-bar__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar__left > a {
+  margin-right: 19px;
+}
+
+.menu-bar__title {
+  margin-bottom: 0;
+}
